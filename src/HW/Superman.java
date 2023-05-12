@@ -1,6 +1,6 @@
 package HW;
 
-public class Superman implements CanFly,CanRun,CanSwim {
+public class Superman implements CanFly, CanRun, CanSwim {
 
 
   @Override
@@ -10,7 +10,7 @@ public class Superman implements CanFly,CanRun,CanSwim {
 
   @Override
   public void run() {
-    System.out.println("Умеет бегать");
+    System.out.println("Умеет бегать" + "\n");
   }
 
   @Override

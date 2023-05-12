@@ -16,5 +16,19 @@ public class Main {
     superman.fly();
     superman.swim();
     superman.run();
+
+    Duck duck = new Duck();
+    duck.fly();
+    duck.swim();
+
+    Penguin penguin = new Penguin();
+    penguin.swim();
+
+    Man man = new  Man();
+    man.run();
+    man.swim();
+
+    Airplane airplane = new Airplane();
+    airplane.fly();
   }
 }

@@ -1,7 +1,8 @@
 package HW;
 
-public interface CanFly  {
+public interface CanFly {
+
   void fly();
-  }
+}
 
 
